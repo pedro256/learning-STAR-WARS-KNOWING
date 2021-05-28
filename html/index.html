@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>STAR WARS</title>
+</head>
+<body>
+    <div class="icon-primary">
+        <img class = "img-primary" src="https://cdn.worldvectorlogo.com/logos/star-wars-4.svg">
+    </div>
+    
+    <h1>LISTA DOS PLANETAS</h1>
+    <h3>NUMERO DE PLANETAS: <span data-bind="text:numPlanets"></span></h3>
+    <h3>PAGINA: <span data-bind="text: page "></span></h3>
+    <button data-bind="click: prevPage" class="back" >ANTERIOR</button>
+    <button data-bind="click: nextPage" class="go" >PROXIMA</button>
+    
+    <ul data-bind="foreach: list">
+        <li>
+            <h4>NOME: <span data-bind="text: name"></span> </h4>
+            <h4>ROTAÇÃO PERIÓDICA:<span data-bind="text: rotation_period"></span> </h4>
+            <h4>DIAMETRO: <span data-bind="text:diameter"></span> </h4>
+            <h4>POPULAÇÃO:<span data-bind="text: population"></span> </h4>
+            <h4>TERRENO: <span data-bind="text:terrain"></span> </h4>
+        </li>
+
+    </ul>
+
+</body>
+<script src="../knockout-3.5.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

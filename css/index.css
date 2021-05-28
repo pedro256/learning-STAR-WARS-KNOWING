@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin: 2.4rem;
+}
+h3{
+    color: rgb(156, 156, 16);
+}
+span{
+    color: rgb(36, 36, 141);
+}
+button{
+
+    background-color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius: 2.4rem; 
+    color: #242323;   
+}
+ul{
+    padding: 8px;
+    background-color: #1f1f1f; 
+    border-radius: 1.4rem;
+
+}
+li{
+    list-style-type: none;
+    padding: 4px 8px 4px 8px;
+    margin: 8px;
+    border-radius: 1.4rem;
+
+}
