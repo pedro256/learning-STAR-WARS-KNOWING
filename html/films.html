@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/filmes.css">
+    <title>Filmes</title>
+</head>
+<body>
+    <div class="options">
+        <button>
+            <a href="./home.html">
+                PRINCIPAL
+            </a>
+            </button>
+    </div>
+    <h1>LISTA DE FILMES</h1>
+    <h3>NUMERO DE FILMES: <span data-bind="text: num"></span></h3>
+
+    <ul data-bind="foreach : list" class="list-films">
+        <li>
+            <h4>EPISODIO: <span data-bind="text: episode_id"></span></h4>
+            <h4>DIRETOR <span data-bind="text: director"></span></h4>
+            <h4>PROSUTOR(ES): <span data-bind="text: producer"></span></h4>
+            <h4>RESUMO: </h4>
+            <span data-bind="text: opening_crawl">
+
+            </span>
+        </li>
+    </ul>
+</body>
+
+<script src="../knockout-3.5.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/filmes.js"></script>
+</html>

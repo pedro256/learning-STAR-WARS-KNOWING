@@ -3,7 +3,7 @@
 
     font-family: 'Bebas Neue', cursive;
     background-color: #242323;
-    color: rgba(230, 230, 1, 0.801);
+    color: rgb(236, 236, 32);
     letter-spacing: 2px;
     
 }
@@ -17,4 +17,28 @@ body{
     width: 30%;
     margin: 8px;
     
+}
+h1{
+    text-align: center;
+    margin: 2.4rem;
+}
+
+h3{
+    color: rgb(236, 236, 32);
+}
+span{
+    color: rgb(36, 36, 141);
+}
+button{
+
+    background-color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius: 2.4rem; 
+    color: #242323;   
+}
+.options button a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #323232;
 }

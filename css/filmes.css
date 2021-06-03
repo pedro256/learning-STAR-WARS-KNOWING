@@ -1,0 +1,13 @@
+list-films{
+    padding: 8px;
+    background-color: #1f1f1f; 
+    border-radius: 1.4rem;
+
+}
+.list-films li{
+    list-style-type: none;
+    padding: 4px 8px 4px 8px;
+    margin: 8px;
+    border-radius: 1.4rem;
+
+}
